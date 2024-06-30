@@ -4,10 +4,12 @@ const output = document.getElementById('output');
 
 function convertToRoman() {
   const num = parseInt(number.value, 10);
-  if (isNaN(num)) {
+  if (Number.isNaN(num)) {
     output.innerHTML = 'Please enter a valid number';
     return;
-  } else if (num < 1) {
+  }
+  
+  if (num < 1) {
     output.innerHTML = 'Please enter a number greater than or equal to 1';
     return;
   }
