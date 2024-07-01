@@ -25,7 +25,7 @@ function convertToRoman() {
   let romanNumeral = '';
   let remainingNum = num;
 
-  for (let i = 0; i < romanValues.length; i++) {
+  for (let i = 0; i < romanValues.length; i += 1) {
     while (remainingNum >= romanValues[i]) {
       romanNumeral += romanSymbols[i];
       remainingNum -= romanValues[i];

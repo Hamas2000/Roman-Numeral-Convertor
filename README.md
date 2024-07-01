@@ -7,7 +7,7 @@ This project is a simple yet efficient Roman Numeral Converter. It was created t
 ## Demo 📸
 
 - Take a glimpse of the page below: 
-[Live Demo](https://hamas2000.github.io/Roman-Numeral-Converter)
+[Live Demo](https://hamas2000.github.io/Roman-Numeral-Convertor/)
 
 ## Technologies Used 🛠️
 
