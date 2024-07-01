@@ -8,7 +8,7 @@ function convertToRoman() {
     output.innerHTML = 'Please enter a valid number';
     return;
   }
-  
+
   if (num < 1) {
     output.innerHTML = 'Please enter a number greater than or equal to 1';
     return;
